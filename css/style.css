@@ -8,7 +8,7 @@ left margin is 20px
 
 
 body{
-    background-image: url(/images/background-image.jpg);
+    background-image: url(../images/background-image.jpg);
     background-repeat: repeat;
 
     justify-content: center;
