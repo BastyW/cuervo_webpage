@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuervos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-contacto.css">
+</head>
+
+<body>
+    <header>
+        <div class="icon">
+            <a href="index.html"><img src="images/icono.png" alt="icon"></a>
+        </div>
+        <h1>Los cuervos</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="detalle.html">Detalles</a>
+        <a href="galeria.html">Galería de Imágenes</a>
+        <a href="contacto.html">Formulario de Contacto</a>
+    </nav>
+
+    <main>
+        <h2>Formulario de contacto.</h2>
+        <form action="" method="get">
+            <br>
+            <h2>Rellena los campos para contactarnos.</h2>
+
+            <label for="name">Nombre:</label>
+            <input class="casilla" type="text" id="name" maxlength="50" name="nombre" required autofocus>
+            <label for="last_name">Apellidos:</label>
+            <input class="casilla" type="text" id="last_name" maxlength="50" name="apellido" required autofocus>
+
+            <label for="correo">Correo electrónico: </label>
+            <input class="casilla" type="email" id="correo" name="correo" required placeholder="name@example.com">
+
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input class="casilla" type="date" id="fecha" name="date" required>
+
+
+            <div class="center">
+            <input class="boton" type="submit" value="Enviar">
+            </div>
+            <br><br>
+        
+        
+        </form>
+
+
+    </main>
+
+    <footer>
+        <div class="copy">
+            <p>Nuestro sitio &copy; Copyright 2024 Bastián Lienlaf</p>
+        </div>
+        <div class="contact">
+            <p>bastian.lienlaf@inacapmail.cl</p>
+            <p>+569 1234 8765</p>
+        </div>
+    </footer>
+</body>
+
+</html>

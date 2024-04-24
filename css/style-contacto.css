@@ -1,0 +1,65 @@
+
+
+form{
+	width: 94%;
+    height: 100%;
+	padding: 30px;
+	border-radius: 10px;
+	margin: 0 auto;
+	background-color: #c1bdba;
+    background-image: linear-gradient(#c1bdba, #8AA6BF, #c1bdba);
+
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 ;
+
+}
+form label{
+    position: relative;
+	width:94%;
+    padding:12px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+
+
+
+.casilla{
+    width: 90%;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 0;
+
+    border-radius: 40px;
+    margin-left: 1em;
+    margin-bottom: 1.4em;
+    margin: auto;
+    display: block;
+
+    
+}
+
+
+.boton{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 0;
+    width: 50%;
+    border: none;
+    padding: 12px;
+    background: rgb(0, 26, 255);
+    color: white;
+    font-size: 16px;
+}
+.boton:hover {
+    background-color: #1720a3;
+    color: rgb(159, 212, 255);
+}

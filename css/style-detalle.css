@@ -1,0 +1,40 @@
+
+
+.image_datails_format{
+    margin: 0.5em 1.4em 0.5em 1.4em;
+    clear: right;
+    float: right;
+    border: 1px solid #c8ccd1;
+    border-bottom: 0;
+
+
+    display: table;
+
+}
+
+.cbs_description{
+    display: table-caption;
+    caption-side: bottom;
+    line-height: 1.4em;
+    word-break: break-word;
+    text-align: left;
+    padding: 0 6px 6px 6px;
+    
+    border: 1px solid #c8ccd1;
+    border-top: 0;
+}
+
+
+table{
+    width: 95%;
+    margin: 4em auto;
+    
+    border-collapse: collapse;
+    border: 3px solid rgb(199, 158, 199);
+}
+
+th,td{
+    padding: 20px;
+    border: 1px solid rgb(199, 158, 199);
+    letter-spacing: 1.5px;
+}
